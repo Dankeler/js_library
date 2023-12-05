@@ -1,0 +1,132 @@
+
+
+#author.author,
+#title.title,
+#pages.pages {
+    width: 80%;
+    height: 40px;
+    border-radius: 2px;
+}
+div.modal {
+    display: none;
+}
+
+.modalContent {
+    background-color: rgb(24, 61, 61);
+    width: 80%;
+    max-width: 640px;
+    position: relative;
+    margin: 3rem auto;
+}
+input {
+    margin-bottom: 30px;
+}
+
+.modalBody {
+    padding-bottom: 3.5rem;
+    font-family: sans-serif;
+    line-height: 2rem;
+    
+}
+
+.submitBtn {
+    float: right;
+    margin-right: 1rem;
+    border-style: none;
+    border-radius: 10px;
+    padding: 2px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    background-color: rgb(92, 131, 116);
+    color: white;
+    
+}
+.submitBtn:hover {
+    background-color: rgb(147, 177, 166);
+}
+.submitBtn:active {
+    background-color: rgb(147, 177, 166);
+    transform: translateY(4px);
+}
+.close {
+    color: rgb(206, 202, 195);
+    position: absolute;
+    font-size: 4rem;
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    top: 0px;
+    right: 10px;
+}
+
+.modalHeader {
+    text-align: center;
+    padding-top: 5px;
+}
+
+html {
+    text-align: center;
+    background-color: rgb(4, 13, 18);
+    color: white;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+button {
+    font-size: 32px;
+    border-radius: 6px;
+    background-color: rgb(92, 131, 116);
+    color: white;
+    
+}
+button:hover {
+    background-color: rgb(147, 177, 166);
+}
+button:active {
+    background-color: rgb(147, 177, 166);
+    transform: translateY(4px);
+}
+
+
+#bookHolder {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.oneBook {
+    background-color: rgb(24, 61, 61);
+    border-radius: 10px;
+    max-width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.title,
+.author,
+.pages {
+    text-align: center;
+}
+
+.bookTitle {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.buttonsDiv {
+    display: flex;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div>
+    <h1>Library App</h1>
+  </div>
+  <div>
+    <button id="btn">+ Add Book</button>
+  </div>
+
+  <div class="modal">
+    <div class="modalContent">
+      <div class="modalHeader">
+
+        <h1>Add a book!</h1>
+        <button type="button" class="close">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modalBody">
+          <form id="bookForm" action="" method="post">
+            
+            <label for="author">Author:</label><br/>
+            <input type="text" id="author" class="author" placeholder="Stephen King" required><br/>
+
+            <label for="title">Title:</label><br/>
+            <input type="text" id="title" class="title" placeholder="Salem's Lot" required><br/>
+
+            <label for="pages">Number of pages:</label><br/>
+            <input type="number" id="pages" class="pages"><br/>
+
+            <span class="readQuestion">Have you read the book?</span>
+            <label for="switch" for="read">
+                <input type="checkbox" id="read" class="read">
+                <span class="slider round"></span>
+            </label><br/>
+
+            <button type="submit" class="submitBtn">Submit</button>
+
+
+
+
+          </form>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div id="bookHolder">
+
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
